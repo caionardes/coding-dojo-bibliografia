@@ -1,9 +1,10 @@
 {
   "name": "nomesbibliografias",
   "version": "1.0.0",
-  "description": "",
+  "description": "App de bibliografia com Heroku.",
   "main": "index.js",
   "scripts": {
+	"start": "node index.js",
     "test": "jest"
   },
   "author": "",
