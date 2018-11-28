@@ -2,7 +2,7 @@
   "name": "nomesbibliografias",
   "version": "1.0.0",
   "description": "App de bibliografia com Heroku.",
-  "main": "index.js",
+  "main": "executa_case.js",
   "scripts": {
 	"start": "node executa_case.js",
     "test": "jest"
