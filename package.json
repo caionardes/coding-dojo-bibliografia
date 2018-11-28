@@ -4,7 +4,7 @@
   "description": "App de bibliografia com Heroku.",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
+	"start": "node executa_case.js",
     "test": "jest"
   },
   "author": "",
