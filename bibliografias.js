@@ -110,10 +110,14 @@ function formatarListaNomes(qtdNomes, nomes) {
     const _this = require('./bibliografias');
 
     var editores = _this.lerNomes(qtdNomes, nomes);
+    var resultados = [];
     editores.forEach(function (nomeEditor) {
-        console.log(_this.formatarNomeEditor(nomeEditor));
+        var temp = _this.formatarNomeEditor(nomeEditor);
+        console.log(temp);
+        resultados.push(temp);
     });
-    return editores;
+
+    return resultados;
 }
 
 module.exports = {
