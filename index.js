@@ -1,4 +1,4 @@
-const http = require('./bibliografias');
+const http = require('http');
 
 var porta = process.env.PORT || 8080;
 
