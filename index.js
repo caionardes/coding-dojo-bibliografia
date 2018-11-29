@@ -33,7 +33,7 @@ let handleRequest = (req, res) => {
         });
         res.write("<br>");
         res.write("<br>");
-        res.write("Resultados: ");
+        res.write("Resultados para 5 nomes: ");
         res.write("<br>");
         var editores = formatarListaNomes(5, listaParam);
 
